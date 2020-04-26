@@ -1,0 +1,285 @@
+/* ad nav */
+
+.mobile-show {
+  display: none;
+}
+
+header .upper .ad-nav {
+  background-color: #394e73;
+  height: 65px;
+  padding: 0 1.5rem;
+  width: 100%;
+}
+  
+header .upper .ad-nav a {
+  color: #FFFFFF;
+  text-decoration: underline;
+}
+
+header .upper .ad-nav div:nth-child(2) {
+  padding: 0 16px; 
+  text-align: center;
+}
+
+/* info nav */
+
+header .upper .info-nav {
+  color: rgb(82,82,82);
+  background-color: rgb(246,246,246);
+  height: 34px;
+  padding: 0 1.5rem;
+  width: 100%;
+}
+
+.info-left button,
+.info-left button:focus {
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+.info-left button span { 
+  display: inline-block;
+  padding-top: 2px; 
+}
+
+.info-left span:nth-child(2),
+.info-left a { 
+  color: rgb(82,82,82);
+  font-family: 'Roboto',sans-serif;
+  font-size: 12px;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+  text-decoration: none;
+}
+
+.info-left a {
+  margin-left: 25px;
+  padding-top: 2px;
+}
+
+.info-left button span:nth-child(3) { 
+  font-size: 0.5rem;
+  margin-left: 0.5rem;
+  opacity: 0.8;
+
+}
+
+.info-left .svg-flag {
+  height: 16px;
+  margin-right: 0.5rem;
+  position: relative;
+  top: 1px;
+  width: 16px;
+}
+
+.info-left .svg-flag svg {
+  height: 16px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 16px;
+}
+
+.info-right a { 
+  color: rgb(82,82,82);
+  font-size: 0.75rem;
+  font-weight: 300;
+  padding-top: 2px;
+  text-decoration: none;
+}
+
+/* main nav */
+
+header .lower .main-nav {
+  background-color: #FFFFFF;
+  height: 56px;
+  padding: 0 1.5rem;
+  width: 100%;
+}
+
+/* logo */
+.svg-logo {
+    width: 5rem;
+    height: 1.875rem;
+    margin-top: 0.25rem;
+    fill: rgb(30, 48, 110);
+}
+
+.svg-logo svg {
+  width: 100%;
+  height: 100%;
+}
+
+/* primary nav */
+
+nav a {
+  border-bottom: 3px solid transparent;
+  color: rgb(30, 48, 110);
+  font-size: 15px;
+  opacity: 0.8;
+  margin: 0 1rem;
+  padding-bottom: 16px;
+  transition: border-bottom ease-in-out 0.2s;
+}
+
+nav a:hover {
+  border-bottom: 3px solid rgb(30,48,110);
+  color: rgb(30,48,110);
+  opacity: 1;
+  transition: border-bottom ease-in-out 0.5s;
+}
+
+/* phone and cart */
+
+.phone {
+  padding: 0 20px;
+}
+
+.phone a {
+  color: rgb(30,48,110);
+  font-weight: 300;
+}
+
+span.tel div {
+  background-size: contain;
+  background-image: url('../images/icon-phone-new.svg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 1.5rem;
+  margin-right: 0.5rem;
+  position: relative;
+  width: 1.5rem;
+}
+
+span.tel span {
+  font-size: 15px;
+}
+
+.cart button,
+.cart button:focus {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  padding-left: 15px;
+  position: relative;
+}
+
+  .cart button svg {
+  width: 1.5rem;
+  height: 1.25rem;
+}
+
+.cart button svg path.wheels,
+.cart button svg path.outer-cart { 
+  fill: rgb(82, 102, 153);
+}
+
+.cart button svg path.inner-cart {
+  fill: rgb(215, 236, 247);
+}
+
+
+/* sub nav */
+
+header .lower .sub-nav {
+  background-color: #FEFEFE;
+  box-shadow: rgb(230, 230, 230) 0px 0.5px 0px 0px;
+  height: 60px;
+  padding: 0;
+  transition: transform 0.3s ease-out 0s, box-shadow 0.15s ease-out 0s;
+  width: 100%;
+}
+
+header .lower .sub-nav-inner {
+  box-shadow:  rgba(0, 0, 0, 0.1) 0px 0px 0.625rem 0px inset;
+  height: 60px;
+  padding: 0 1.5rem;
+  width: 100%;
+}
+
+button.sub-nav-item {
+  background-color: transparent;
+  border: none;
+  color: rgb(82, 82, 82);
+  cursor: pointer;
+  padding: 0 30px;
+}
+
+.sub-nav-content {
+  border-bottom: 1px solid transparent;
+  color: rgb(82, 82, 82);
+  padding: 14px 0 13px;
+}
+
+.sub-nav-content span { 
+  display: inline-block;
+  fill: rgb(82, 82, 82);
+  height: 32px;
+  margin-right: 0.25rem;
+  position: relative;
+  vertical-align: middle;
+  width: 32px;
+}
+
+.sub-nav-content svg {
+  height: 32px;
+  width: 32px;
+}
+
+.sub-nav-content p { 
+  font-size: 14px;
+  letter-spacing: 0.1rem;
+}
+
+@media (max-width: 1365px) {
+  .mobile-hide-lg {
+    display: none;
+  }
+}
+
+@media (max-width: 1023px) {
+
+  .mobile-hide {
+    display: none;
+  }
+
+  .mobile-show {
+    display: block;
+  }
+
+  header .lower .main-nav {
+    padding: 0 0 0 1.5rem;
+  }
+
+  body header .lower {
+    margin-top: 0;
+  }
+
+  body main {
+    padding-top: 116px;
+  }
+
+  button.sub-nav-item:first-child,
+  button.sub-nav-item:last-child {
+    display: none;
+  }
+
+}
+
+@media (max-width: 639px) {
+
+  #slider .hero-flex {
+    padding: 30px;
+  }
+  
+  #slider .hero-box h1 {
+    font-size: 20px !important;
+  }
+
+  #slider .hero-box a.btn {
+    padding: 8px 12px;
+  }
+
+
+}

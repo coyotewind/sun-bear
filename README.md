@@ -1,4 +1,4 @@
-# Quirty Web Store
+# Casper Copy Cat
 
 ### Description
 

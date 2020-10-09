@@ -2,7 +2,7 @@
 
 ### Description
 
-- This was another starter HMTL/CSS project. This assignment was to make a copy-cat of the casper.com homr page.
+- This was another starter HMTL/CSS project. This assignment was to make a copy-cat of the casper.com home page.
 - My version can be viewed at https://sun-bear.netlify.app/
 
 ### What I Learned:
